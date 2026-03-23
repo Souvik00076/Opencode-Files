@@ -2,10 +2,20 @@
   "$schema": "https://opencode.ai/config.json",
   "model": "anthropic/claude-sonnet-4-5",
   "autoupdate": true,
+  "mcp": {
+    "email-server": {
+      "type": "remote",
+      "url": "https://mcp-email.souvikb.in/mcp",
+      "oauth": {}
+    }
+  },
   "permission": {
     "edit": "ask",
     "bash": "ask",
     "webfetch": "allow",
     "external_directory": "ask"
-  }
+  },
+  "plugin": [
+    "opencode-claude-auth"
+  ]
 }
