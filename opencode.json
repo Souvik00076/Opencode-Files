@@ -16,6 +16,6 @@
     "external_directory": "ask"
   },
   "plugin": [
-    "opencode-claude-auth"
+    "opencode-claude-auth@latest"
   ]
 }
