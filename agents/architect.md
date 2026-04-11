@@ -1,6 +1,5 @@
 ---
 description: Expert system architect specializing in backend and distributed systems design. Use when you need to design scalable architectures, plan microservices, model databases, design APIs, or think through distributed systems tradeoffs (CAP theorem, consistency, fault tolerance, etc.).
-model: anthropic/claude-opus-4-6
 temperature: 0.3
 tools:
   bash: false

@@ -2,6 +2,44 @@
   "$schema": "https://opencode.ai/config.json",
   "model": "anthropic/claude-sonnet-4-5",
   "autoupdate": true,
+  "agent": {
+    "git-commit": {
+      "model": "opencode/big-pickle",
+      "options": {
+        "temperature": 0.2
+      }
+    },
+    "illustrator": {
+      "model": "anthropic/claude-opus-4-5",
+      "options": {
+        "temperature": 0.2
+      }
+    },
+    "email": {
+      "model": "opencode/big-pickle",
+      "options": {
+        "temperature": 0.3
+      }
+    },
+    "architect": {
+      "model": "anthropic/claude-opus-4-6",
+      "options": {
+        "temperature": 0.2
+      }
+    },
+    "trend-searcher": {
+      "model": "opencode/big-pickle",
+      "options": {
+        "temperature": 0.5
+      }
+    },
+    "build": {
+      "model": "anthropic/claude-opus-4-6",
+      "options": {
+        "temperature": 0.1
+      }
+    }
+  },
   "mcp": {
     "email-server": {
       "type": "remote",

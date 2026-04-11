@@ -2,7 +2,7 @@
 description: Handles all git commit operations — staging, writing commit messages, amending, and managing commit history. Use this agent whenever the task involves git commits, writing commit messages, staging changes, squashing, or reviewing what changed before committing.
 
 temperature: 0.1
-model: anthropic/claude-sonnet-4-5
+model: opencode/big-pickle
 mode:primary
 permission:
   bash:
