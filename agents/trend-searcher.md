@@ -3,7 +3,6 @@
 description: Discovers trending tech content from Hacker News, Dev.to, Lobste.rs, Reddit, and GitHub Trending. Use this agent whenever the user wants to find what's hot in tech, browse trending articles, or get a curated digest of developer news.
 temperature: 0.3
 model: anthropic/claude-haiku-4-5
-mode: subagent
 permission:
   bash:
     "curl *": allow

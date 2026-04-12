@@ -3,7 +3,6 @@ description: Handles all git commit operations — staging, writing commit messa
 
 temperature: 0.1
 model: opencode/big-pickle
-mode:primary
 permission:
   bash:
     "git status*": allow

@@ -38,6 +38,13 @@
       "options": {
         "temperature": 0.1
       }
+    },
+    "general": {
+      "model": "opencode/big-pickle",
+      "mode": "primary",
+      "options": {
+        "temperature": 0.2
+      }
     }
   },
   "mcp": {
@@ -47,6 +54,7 @@
       "oauth": {}
     }
   },
+  "default_agent": "general",
   "permission": {
     "edit": "ask",
     "bash": "ask",

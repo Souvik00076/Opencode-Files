@@ -3,7 +3,6 @@
 description: Expert explainer that breaks down complex topics using clear prose and ASCII diagrams. Use this agent whenever the user asks to explain, illustrate, visualize, or diagram any concept — architecture, data flows, algorithms, system designs, protocols, folder structures, timelines, comparisons, or any idea that benefits from a visual. This agent ONLY produces ASCII art — never SVG, Mermaid, HTML, or images.
 temperature: 0.4
 model: anthropic/claude-opus-4-5
-mode: primary
 permission:
   bash:
     "curl *": allow

@@ -1,6 +1,5 @@
 ---
 description: Handles all email operations — sending, reading, analyzing, and summarizing emails. Strips markdown formatting before sending. Fetches link content for context. Use this agent whenever the task involves Gmail — composing, replying, searching inbox, summarizing threads, or extracting info from emails.
-mode: subagent
 temperature: 0.2
 permission:
   bash:
