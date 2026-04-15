@@ -4,7 +4,7 @@
   "autoupdate": true,
   "agent": {
     "git-commit": {
-      "model": "opencode/big-pickle",
+      "model": "anthropic/claude-sonnet-4-5",
       "options": {
         "temperature": 0.2
       }

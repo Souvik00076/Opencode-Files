@@ -2,16 +2,16 @@
 description: Handles all git commit operations — staging, writing commit messages, amending, and managing commit history. Use this agent whenever the task involves git commits, writing commit messages, staging changes, squashing, or reviewing what changed before committing.
 
 temperature: 0.1
-model: opencode/big-pickle
 permission:
   bash:
+    "*": deny
     "git status*": allow
     "git diff*": allow
     "git log*": allow
-    "git add*": allow
-    "git commit*": allow
-    "git rebase*": allow
-    "git stash*": allow
+    "git add*": ask
+    "git commit*": ask
+    "git rebase*": ask
+    "git stash*": ask
     "git show*": allow
     "git rev-parse*": allow
     "git branch*": allow
@@ -20,7 +20,6 @@ permission:
     "head *": allow
     "tail *": allow
     "wc *": allow
-    "*": deny
   edit: ask
   write: ask
 ---
