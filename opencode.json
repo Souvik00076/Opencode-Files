@@ -59,7 +59,8 @@
     "edit": "ask",
     "bash": "ask",
     "webfetch": "allow",
-    "external_directory": "ask"
+		"external_directory": "ask",
+		"task": "deny"
   },
   "plugin": [
     "opencode-claude-auth@latest"
